@@ -41,8 +41,8 @@ The repository is a controlled documentation set covering company requirements, 
 |---|---|---|
 | Executive, founder, board member, or program lead | [Rafa 00 — Company & Technical Master Requirements](./Rafa%2000%20-%20Company%20%26%20Technical%20Master%20Requirements.md) | Defines the company architecture, system boundaries, requirements, stage gates, and governance model. |
 | Engineer, architect, SRE, automation engineer, or Unreal specialist | [Rafa 01 — Engineering Execution Manual](./Rafa%2001%20-%20Engineering%20Execution%20Manual.md) | Converts the requirements into repositories, contracts, schemas, services, tests, delivery workflows, and assignable engineering work. |
-| Operator, manager, commercial lead, or department owner | [Rafa 02 — Business Playbook](./Rafa%2002%20-%20Business%20Playbook%20(Seven-Year%20Operating%20System).md) | Defines the seven-year operating system, commercial model, governance cadence, departments, scorecards, and roadmap. |
-| IT, infrastructure, facilities, security, or service-management owner | [Rafa 03 — Operations Manual](./Rafa%2003%20-%20Operations%20Manual%20(Five-Year%20Infrastructure%20%26%20Administration).md) | Covers identity, endpoints, network, storage, backup, facilities, procurement, service management, and continuity. |
+| Operator, manager, commercial lead, or department owner | [Rafa 02 — Business Playbook](./Rafa%2002%20-%20Business%20Playbook%20%28Seven-Year%20Operating%20System%29.md) | Defines the seven-year operating system, commercial model, governance cadence, departments, scorecards, and roadmap. |
+| IT, infrastructure, facilities, security, or service-management owner | [Rafa 03 — Operations Manual](./Rafa%2003%20-%20Operations%20Manual%20%28Five-Year%20Infrastructure%20%26%20Administration%29.md) | Covers identity, endpoints, network, storage, backup, facilities, procurement, service management, and continuity. |
 | Hiring manager, People Ops, team lead, or new employee | [Rafa 04 — Recruiting, Hiring & 12-Month Onboarding Playbook](./Rafa%2004%20-%20Recruiting,%20Hiring%20%26%2012-Month%20Onboarding%20Playbook.md) | Defines structured recruiting, role scorecards, onboarding, certification, development, performance, and offboarding. |
 | Angel or pre-seed investor | [Rafa 05 — Pre-Seed & Angel Business Plan](./Rafa%2005%20-%20Pre-Seed%20%26%20Angel%20Business%20Plan.md) | Frames an illustrative $1.75M pre-seed plan around gated technical and commercial proof. |
 | Institutional seed / Series A investor | [Rafa 06 — Venture Capital Business Plan](./Rafa%2006%20-%20Venture%20Capital%20Business%20Plan.md) | Frames an illustrative $8.0M institutional financing plan around enterprise deployment, recurring revenue, and platform scale. |
@@ -63,8 +63,8 @@ The repository is a controlled documentation set covering company requirements, 
 
 | ID | Document | Scope |
 |---|---|---|
-| `RAFA-BIZ-001` | **[Rafa 02 — Business Playbook](./Rafa%2002%20-%20Business%20Playbook%20(Seven-Year%20Operating%20System).md)** | Seven-year strategy, business model, governance, department procedures, scorecards, planning cadence, and management controls. |
-| `RAFA-OPS-001` | **[Rafa 03 — Operations Manual](./Rafa%2003%20-%20Operations%20Manual%20(Five-Year%20Infrastructure%20%26%20Administration).md)** | Five-year IT, physical infrastructure, security, procurement, support, continuity, and administrative operating standard. |
+| `RAFA-BIZ-001` | **[Rafa 02 — Business Playbook](./Rafa%2002%20-%20Business%20Playbook%20%28Seven-Year%20Operating%20System%29.md)** | Seven-year strategy, business model, governance, department procedures, scorecards, planning cadence, and management controls. |
+| `RAFA-OPS-001` | **[Rafa 03 — Operations Manual](./Rafa%2003%20-%20Operations%20Manual%20%28Five-Year%20Infrastructure%20%26%20Administration%29.md)** | Five-year IT, physical infrastructure, security, procurement, support, continuity, and administrative operating standard. |
 | `RAFA-PEOPLE-001` | **[Rafa 04 — Recruiting, Hiring & 12-Month Onboarding Playbook](./Rafa%2004%20-%20Recruiting,%20Hiring%20%26%2012-Month%20Onboarding%20Playbook.md)** | Workforce planning, recruiting, structured selection, onboarding, certification, development, performance, and lifecycle controls. |
 
 ### Investment plans
@@ -83,16 +83,16 @@ The repository is a controlled documentation set covering company requirements, 
 
 ```mermaid
 flowchart TD
-    A[Approved brief / script / production request]
-    B[n8n interaction & human approval plane]
-    C[Rafa PostgreSQL\nversions • rights • state • cost • lineage]
-    D[Kestra durable execution & recovery]
-    E[Authenticated edge render gateway]
-    F[Unreal Engine structural render]
-    G[NAS / object storage artifact plane]
-    H[Provider-neutral AI polish adapter]
-    I[Audio • lip-sync • editorial • QC]
-    J[Approved master • delivery • archive]
+    A["Approved brief / script / production request"]
+    B["n8n interaction & human approval plane"]
+    C["Rafa PostgreSQL<br/>versions • rights • state • cost • lineage"]
+    D["Kestra durable execution & recovery"]
+    E["Authenticated edge render gateway"]
+    F["Unreal Engine structural render"]
+    G["NAS / object storage artifact plane"]
+    H["Provider-neutral AI polish adapter"]
+    I["Audio • lip-sync • editorial • QC"]
+    J["Approved master • delivery • archive"]
 
     A --> B --> C --> D --> E --> F --> G --> H --> I --> J
 ```
