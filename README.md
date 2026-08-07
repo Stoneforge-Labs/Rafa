@@ -6,9 +6,12 @@
 
 **A software-defined production architecture for turning approved creative intent into repeatable, traceable, rights-aware media.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Documentation](https://img.shields.io/badge/documentation-8%20controlled%20documents-0969da)](./)
 [![Status](https://img.shields.io/badge/status-planning%20%26%20implementation%20baseline-8250df)](./Rafa%2000%20-%20Company%20%26%20Technical%20Master%20Requirements.md)
 [![Architecture](https://img.shields.io/badge/architecture-provider--neutral-1f883d)](./Rafa%2001%20-%20Engineering%20Execution%20Manual.md)
+
+[Responsible Use](./RESPONSIBLE_USE.md) · [Security](./SECURITY.md) · [Contributing](./CONTRIBUTING.md) · [MIT License](./LICENSE)
 
 </div>
 
@@ -192,6 +195,26 @@ Read the appropriate investment plan alongside `Rafa 00`, then use `Rafa 01–04
 
 ---
 
+## Responsible use & compliance
+
+Rafa is intended for **lawful planning, engineering, production, operations, governance, and investment diligence**. It is not intended to facilitate fraud, deceptive fundraising, false records, unauthorized access, evasion of legal obligations, infringement, or other unlawful conduct.
+
+Anyone implementing or relying on these materials is responsible for the laws, regulations, licenses, permissions, contracts, professional requirements, and organizational approvals that apply to the real activity and jurisdiction.
+
+In particular:
+
+- do not present illustrative financing figures, forecasts, targets, assumptions, or roadmap items as audited results, guaranteed outcomes, verified customer demand, or committed financing;
+- do not falsify approvals, evidence, logs, costs, milestones, rights, credentials, signatures, records, or technical results;
+- do not use third-party content, personal data, likenesses, voices, biometric information, models, software, or systems without the required rights and authorization;
+- do not use networking, security, automation, or access-control examples against systems you do not own or have explicit authorization to assess;
+- obtain qualified legal, accounting, tax, securities, employment, privacy, safety, or other professional advice where the decision requires it.
+
+Read **[Responsible Use & Compliance](./RESPONSIBLE_USE.md)** and **[Security Policy](./SECURITY.md)** before external, production, investor-facing, or security-sensitive use.
+
+> The repository provides planning and technical documentation. It does not create an attorney-client, accountant-client, investment-adviser, fiduciary, or other regulated professional relationship.
+
+---
+
 ## Document governance
 
 The Rafa documentation set is intended to function as a controlled operating system rather than informal notes.
@@ -205,11 +228,21 @@ When changing the documentation:
 - do not treat chat, screenshots, or memory as authoritative over approved source-controlled specifications;
 - keep vendor- and version-specific claims subject to validation against the approved deployment.
 
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for change and review standards.
+
 ---
 
 ## Repository status
 
 This repository currently contains the **planning and implementation baseline** for Rafa. The documents describe intended architecture, requirements, operating controls, implementation patterns, and illustrative financing scenarios. Technical commands, vendor details, performance assumptions, financial assumptions, and legal positions must be validated in their applicable implementation or diligence context.
+
+---
+
+## License
+
+This repository is distributed under the **[MIT License](./LICENSE)**.
+
+The MIT License provides broad permission to use, modify, and distribute the repository materials, but it does not grant rights to third-party content, trademarks, personal data, likenesses, voices, confidential information, patents, regulated activities, or systems you are not authorized to access.
 
 ---
 
